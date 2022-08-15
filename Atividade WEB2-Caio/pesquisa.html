@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>WEB2 - Pesquisa</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/grid.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/produtos.css">
+		
+	</head>
+	<body>
+		<body>
+			<section class="orcamento">
+				<div class="container">
+					<h2 class="subtitulo">Tela de Pesquisa</h2>
+					<form id="form_orcamento" method="POST" action="./enviar.php" class="form2 grid-12 formphp">
+						<label for="codigo">Nome</label>
+						<input class="codigo" type="text" id="codigo" name="codigo" required>
+						<button id="enviar" name="enviar" type="submit" class="btn">Pesquisar</button>
+
+                        <table class="orcamento_dados">
+                            <tr>
+                              <th>Código</th>
+                              <th>Nome</th>
+                              <th>Categoria</th>
+                              <th>Preço</th>
+                              <th>Quantidade</th>
+                              <th></th>
+                            </tr>
+                            <tr>
+                              <td>56158</td>
+                              <td>Camisa Vinho</td>
+                              <td>Camisa </td>
+                              <td>R$30</td>
+                              <td>56</td>
+                              <td><li><a href="produtos.html">Editar</a></li></td>
+                            </tr>
+                            <tr>
+                            <td>78158</td>
+                              <td>Bermuda Colorida</td>
+                              <td>Bermuda</td>
+                              <td>R$58</td>
+                              <td>45</td>
+                              <td><a href="produtos.html">Editar</a><li></li></td>
+                            </tr>
+                            <tr>
+                              <td>64528</td>
+                                <td>Chinelo Rider</td>
+                                <td>Chinelo</td>
+                                <td>R$42</td>
+                                <td>103</td>
+                                <td><a href="produtos.html">Editar</a><li></li></td>
+                              </tr>
+                              <tr>
+                                <td>5564</td>
+                                  <td>Calça Preta</td>
+                                  <td>Calça </td>
+                                  <td>R$110</td>
+                                  <td>487</td>
+                                  <td><a href="produtos.html">Editar</a><li></li></td>
+                                </tr>
+                                <tr>
+                                  <td>1277</td>
+                                    <td>Agasalho Cinza</td>
+                                    <td>Agasalho</td>
+                                    <td>R$250</td>
+                                    <td>3</td>
+                                    <td><a href="produtos.html">Editar</a><li></li></td>
+                                  </tr>
+                                  <tr>
+                                    <td>3587</td>
+                                      <td>Meia Puma</td>
+                                      <td>Bermuda </td>
+                                      <td>R$20</td>
+                                      <td>754</td>
+                                      <td><a href="produtos.html">Editar</a><li></li></td>
+                                    </tr>
+                                    <tr>
+                                      <td>87</td>
+                                        <td>Pulseira de Diamante</td>
+                                        <td>Pulseira</td>
+                                        <td>R$200000</td>
+                                        <td>2</td>
+                                        <td><a href="produtos.html">Editar</a><li></li></td>
+                                      </tr>
+                                      <tr>
+                                        <td>6544</td>
+                                          <td>Cachecol Listrado</td>
+                                          <td>Cachecol</td>
+                                          <td>R$70</td>
+                                          <td>43</td>
+                                          <td><a href="produtos.html">Editar</a><li></li></td>
+                                        </tr>
+                                        <tr>
+                                          <td>7876</td>
+                                            <td>Sapatilha Melissa</td>
+                                            <td>Sapatilha</td>
+                                            <td>R$60</td>
+                                            <td>91</td>
+                                            <td><a href="produtos.html">Editar</a><li></li></td>
+                                          </tr>
+                                          <tr>
+                                            <td>10541</td>
+                                              <td>Camisa Polo</td>
+                                              <td>Camisa Polo</td>
+                                              <td>R$80</td>
+                                              <td>38</td>
+                                              <td><a href="produtos.html">Editar</a><li></li></td>
+                                            </tr>
+                          </table>
+                          <a class="cancelar" href="produtos.html">NOVO +</a>
+					</form>
+
+
+
+					<div class="orcamento_dados grid-4">
+						<img src="img/LOGO.PNG.jpg" alt="">
+				</div>
+					
+				</div>
+			</section>
+	</body>
+</html>
